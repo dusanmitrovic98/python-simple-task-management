@@ -27,3 +27,4 @@ def remove_task(tasks, task_id):
             parent['children'].remove(task)
         else:
             tasks.remove(task)
+        print("Task removed successfully.")

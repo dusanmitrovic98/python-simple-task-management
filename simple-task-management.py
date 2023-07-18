@@ -66,3 +66,4 @@ def display_tasks(tasks, level=0):
 def find_task_by_id(tasks, task_id):
     for task in tasks:
         if task['id'] == task_id:
+            return task

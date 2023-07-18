@@ -19,3 +19,4 @@ def add_task(tasks, parent=None):
 
     print("Task added successfully.")
 
+def remove_task(tasks, task_id):

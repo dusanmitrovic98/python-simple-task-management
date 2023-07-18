@@ -48,3 +48,4 @@ def update_status(tasks, task_id):
         new_status = input("Enter new task status (True/False): ").lower()
         if new_status == 'true':
             task['status'] = True
+        elif new_status == 'false':

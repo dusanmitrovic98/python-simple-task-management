@@ -60,3 +60,4 @@ def update_status(tasks, task_id):
 def display_tasks(tasks, level=0):
     for task in tasks:
         print('\t' * level, end='')
+        print(f"ID: {task['id']}, Title: {task['title']}, Status: {'Completed' if task['status'] else 'Not Completed'}, Description: {task['description']}")

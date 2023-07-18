@@ -58,3 +58,4 @@ def update_status(tasks, task_id):
         print("Task not found.")
 
 def display_tasks(tasks, level=0):
+    for task in tasks:

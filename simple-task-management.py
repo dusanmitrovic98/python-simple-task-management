@@ -80,3 +80,4 @@ def find_parent_task(tasks, task_id):
             parent_task = find_parent_task(child_task['children'], task_id)
             if parent_task:
                 return parent_task
+    return None

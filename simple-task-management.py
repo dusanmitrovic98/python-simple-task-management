@@ -63,3 +63,4 @@ def display_tasks(tasks, level=0):
         print(f"ID: {task['id']}, Title: {task['title']}, Status: {'Completed' if task['status'] else 'Not Completed'}, Description: {task['description']}")
         display_tasks(task['children'], level + 1)
 
+def find_task_by_id(tasks, task_id):

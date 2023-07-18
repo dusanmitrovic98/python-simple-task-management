@@ -31,3 +31,4 @@ def remove_task(tasks, task_id):
     else:
         print("Task not found.")
 
+def edit_task(tasks, task_id):

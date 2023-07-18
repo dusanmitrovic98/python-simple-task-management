@@ -49,3 +49,4 @@ def update_status(tasks, task_id):
         if new_status == 'true':
             task['status'] = True
         elif new_status == 'false':
+            task['status'] = False

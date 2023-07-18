@@ -42,3 +42,4 @@ def edit_task(tasks, task_id):
     else:
         print("Task not found.")
 
+def update_status(tasks, task_id):

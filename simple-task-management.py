@@ -57,3 +57,4 @@ def update_status(tasks, task_id):
     else:
         print("Task not found.")
 
+def display_tasks(tasks, level=0):

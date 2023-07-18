@@ -55,3 +55,4 @@ def update_status(tasks, task_id):
             return
         print("Task status updated successfully.")
     else:
+        print("Task not found.")

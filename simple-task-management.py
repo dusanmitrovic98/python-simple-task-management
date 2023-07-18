@@ -40,3 +40,4 @@ def edit_task(tasks, task_id):
         task['description'] = new_description
         print("Task edited successfully.")
     else:
+        print("Task not found.")

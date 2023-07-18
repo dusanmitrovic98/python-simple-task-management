@@ -39,3 +39,4 @@ def edit_task(tasks, task_id):
         task['title'] = new_title
         task['description'] = new_description
         print("Task edited successfully.")
+    else:

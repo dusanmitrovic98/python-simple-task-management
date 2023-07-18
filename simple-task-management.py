@@ -45,3 +45,4 @@ def edit_task(tasks, task_id):
 def update_status(tasks, task_id):
     task = find_task_by_id(tasks, task_id)
     if task:
+        new_status = input("Enter new task status (True/False): ").lower()

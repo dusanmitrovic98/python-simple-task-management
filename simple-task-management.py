@@ -73,3 +73,4 @@ def find_task_by_id(tasks, task_id):
     return None
 
 def find_parent_task(tasks, task_id):
+    for task in tasks:

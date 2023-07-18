@@ -16,3 +16,4 @@ def add_task(tasks, parent=None):
         parent['children'].append(new_task)
     else:
         tasks.append(new_task)
+

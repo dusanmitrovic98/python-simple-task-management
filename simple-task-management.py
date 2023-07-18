@@ -26,3 +26,4 @@ def remove_task(tasks, task_id):
         if parent:
             parent['children'].remove(task)
         else:
+            tasks.remove(task)

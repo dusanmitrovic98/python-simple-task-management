@@ -23,3 +23,4 @@ def remove_task(tasks, task_id):
     task = find_task_by_id(tasks, task_id)
     if task:
         parent = find_parent_task(tasks, task_id)
+        if parent:

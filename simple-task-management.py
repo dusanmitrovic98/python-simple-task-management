@@ -13,3 +13,4 @@ def add_task(tasks, parent=None):
     new_task = {'id': get_next_task_id(), 'title': title, 'status': False, 'description': description, 'children': []}
 
     if parent:
+        parent['children'].append(new_task)

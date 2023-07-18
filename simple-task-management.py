@@ -70,3 +70,4 @@ def find_task_by_id(tasks, task_id):
         child_task = find_task_by_id(task['children'], task_id)
         if child_task:
             return child_task
+    return None

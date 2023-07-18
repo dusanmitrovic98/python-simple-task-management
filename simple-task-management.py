@@ -87,3 +87,4 @@ def save_tasks(tasks):
     try:
         with open(filename, 'w') as file:
             json.dump(tasks, file)
+        print("Tasks saved successfully.")

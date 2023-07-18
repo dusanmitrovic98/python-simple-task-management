@@ -76,3 +76,4 @@ def find_parent_task(tasks, task_id):
     for task in tasks:
         for child_task in task['children']:
             if child_task['id'] == task_id:
+                return task

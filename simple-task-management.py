@@ -62,3 +62,4 @@ def display_tasks(tasks, level=0):
         print('\t' * level, end='')
         print(f"ID: {task['id']}, Title: {task['title']}, Status: {'Completed' if task['status'] else 'Not Completed'}, Description: {task['description']}")
         display_tasks(task['children'], level + 1)
+

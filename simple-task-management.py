@@ -37,3 +37,4 @@ def edit_task(tasks, task_id):
         new_title = input("Enter new task title: ")
         new_description = input("Enter new task description (optional): ")
         task['title'] = new_title
+        task['description'] = new_description

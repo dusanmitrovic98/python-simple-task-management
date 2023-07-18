@@ -29,3 +29,4 @@ def remove_task(tasks, task_id):
             tasks.remove(task)
         print("Task removed successfully.")
     else:
+        print("Task not found.")

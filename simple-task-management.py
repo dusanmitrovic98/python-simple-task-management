@@ -9,3 +9,4 @@ def get_next_task_id():
 
 def add_task(tasks, parent=None):
     title = input("Enter task title: ")
+    description = input("Enter task description (optional): ")

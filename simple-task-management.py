@@ -8,3 +8,4 @@ def get_next_task_id():
     return task_id_counter
 
 def add_task(tasks, parent=None):
+    title = input("Enter task title: ")

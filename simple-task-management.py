@@ -64,3 +64,4 @@ def display_tasks(tasks, level=0):
         display_tasks(task['children'], level + 1)
 
 def find_task_by_id(tasks, task_id):
+    for task in tasks:

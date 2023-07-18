@@ -10,3 +10,4 @@ def get_next_task_id():
 def add_task(tasks, parent=None):
     title = input("Enter task title: ")
     description = input("Enter task description (optional): ")
+    new_task = {'id': get_next_task_id(), 'title': title, 'status': False, 'description': description, 'children': []}

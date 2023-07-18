@@ -88,3 +88,4 @@ def save_tasks(tasks):
         with open(filename, 'w') as file:
             json.dump(tasks, file)
         print("Tasks saved successfully.")
+    except:

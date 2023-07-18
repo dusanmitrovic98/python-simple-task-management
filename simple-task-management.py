@@ -89,3 +89,4 @@ def save_tasks(tasks):
             json.dump(tasks, file)
         print("Tasks saved successfully.")
     except:
+        print("Error saving tasks to file.")

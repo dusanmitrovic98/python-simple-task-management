@@ -52,3 +52,4 @@ def update_status(tasks, task_id):
             task['status'] = False
         else:
             print("Invalid status value. Status not updated.")
+            return

@@ -7,3 +7,4 @@ def get_next_task_id():
     task_id_counter += 1
     return task_id_counter
 
+def add_task(tasks, parent=None):

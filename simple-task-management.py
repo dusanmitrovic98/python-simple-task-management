@@ -33,3 +33,4 @@ def remove_task(tasks, task_id):
 
 def edit_task(tasks, task_id):
     task = find_task_by_id(tasks, task_id)
+    if task:

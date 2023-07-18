@@ -18,3 +18,4 @@ def add_task(tasks, parent=None):
         tasks.append(new_task)
 
     print("Task added successfully.")
+

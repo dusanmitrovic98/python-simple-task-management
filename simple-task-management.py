@@ -86,3 +86,4 @@ def save_tasks(tasks):
     filename = input("Enter file name to save tasks: ")
     try:
         with open(filename, 'w') as file:
+            json.dump(tasks, file)

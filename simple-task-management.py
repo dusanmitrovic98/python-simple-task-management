@@ -129,3 +129,4 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
+            parent_id = input("Enter parent task ID (leave empty if no parent): ")

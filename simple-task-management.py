@@ -151,3 +151,4 @@ def main():
             print("Exiting...")
             break
         else:
+            print("Invalid choice. Please try again.")

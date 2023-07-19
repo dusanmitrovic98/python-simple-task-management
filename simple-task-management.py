@@ -135,3 +135,4 @@ def main():
         elif choice == '2':
             task_id = int(input("Enter task ID to remove: "))
             remove_task(tasks, task_id)
+        elif choice == '3':

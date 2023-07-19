@@ -146,3 +146,4 @@ def main():
         elif choice == '6':
             save_tasks(tasks)
         elif choice == '7':
+            tasks = load_tasks()

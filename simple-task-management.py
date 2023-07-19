@@ -114,3 +114,4 @@ def get_max_task_id(tasks):
     return max_id
 
 def main():
+    tasks = []

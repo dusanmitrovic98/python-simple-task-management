@@ -119,3 +119,4 @@ def main():
     while True:
         print("1. Add Task")
         print("2. Remove Task")
+        print("3. Edit Task")

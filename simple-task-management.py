@@ -124,3 +124,4 @@ def main():
         print("5. Display Tasks")
         print("6. Save Tasks")
         print("7. Load Tasks")
+        print("8. Exit")

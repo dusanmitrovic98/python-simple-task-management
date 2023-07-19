@@ -98,3 +98,4 @@ def load_tasks():
             tasks = json.load(file)
         global task_id_counter
         task_id_counter = max(get_max_task_id(tasks), task_id_counter)
+        print("Tasks loaded successfully.")

@@ -126,3 +126,4 @@ def main():
         print("7. Load Tasks")
         print("8. Exit")
 
+        choice = input("Enter your choice: ")

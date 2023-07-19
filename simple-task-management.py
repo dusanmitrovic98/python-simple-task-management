@@ -131,3 +131,4 @@ def main():
         if choice == '1':
             parent_id = input("Enter parent task ID (leave empty if no parent): ")
             parent = find_task_by_id(tasks, int(parent_id)) if parent_id else None
+            add_task(tasks, parent)

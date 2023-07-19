@@ -106,3 +106,4 @@ def load_tasks():
         print("Error loading tasks from file.")
     return []
 
+def get_max_task_id(tasks):

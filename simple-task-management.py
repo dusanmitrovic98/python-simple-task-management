@@ -94,3 +94,4 @@ def save_tasks(tasks):
 def load_tasks():
     filename = input("Enter file name to load tasks: ")
     try:
+        with open(filename, 'r') as file:

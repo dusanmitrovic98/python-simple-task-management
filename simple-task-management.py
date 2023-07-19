@@ -121,3 +121,4 @@ def main():
         print("2. Remove Task")
         print("3. Edit Task")
         print("4. Update Task Status")
+        print("5. Display Tasks")

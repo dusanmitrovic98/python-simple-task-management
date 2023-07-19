@@ -143,3 +143,4 @@ def main():
             update_status(tasks, task_id)
         elif choice == '5':
             display_tasks(tasks)
+        elif choice == '6':

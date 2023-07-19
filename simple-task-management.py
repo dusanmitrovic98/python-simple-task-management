@@ -142,3 +142,4 @@ def main():
             task_id = int(input("Enter task ID to update status: "))
             update_status(tasks, task_id)
         elif choice == '5':
+            display_tasks(tasks)

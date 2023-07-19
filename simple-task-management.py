@@ -122,3 +122,4 @@ def main():
         print("3. Edit Task")
         print("4. Update Task Status")
         print("5. Display Tasks")
+        print("6. Save Tasks")

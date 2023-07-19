@@ -117,3 +117,4 @@ def main():
     tasks = []
 
     while True:
+        print("1. Add Task")

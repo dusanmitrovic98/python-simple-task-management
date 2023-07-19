@@ -96,3 +96,4 @@ def load_tasks():
     try:
         with open(filename, 'r') as file:
             tasks = json.load(file)
+        global task_id_counter

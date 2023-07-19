@@ -133,3 +133,4 @@ def main():
             parent = find_task_by_id(tasks, int(parent_id)) if parent_id else None
             add_task(tasks, parent)
         elif choice == '2':
+            task_id = int(input("Enter task ID to remove: "))

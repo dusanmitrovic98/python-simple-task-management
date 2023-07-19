@@ -149,3 +149,4 @@ def main():
             tasks = load_tasks()
         elif choice == '8':
             print("Exiting...")
+            break

@@ -140,3 +140,4 @@ def main():
             edit_task(tasks, task_id)
         elif choice == '4':
             task_id = int(input("Enter task ID to update status: "))
+            update_status(tasks, task_id)

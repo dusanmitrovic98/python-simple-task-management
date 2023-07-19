@@ -107,3 +107,4 @@ def load_tasks():
     return []
 
 def get_max_task_id(tasks):
+    max_id = 0

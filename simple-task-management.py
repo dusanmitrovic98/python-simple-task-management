@@ -104,3 +104,4 @@ def load_tasks():
         print("File not found.")
     except:
         print("Error loading tasks from file.")
+    return []

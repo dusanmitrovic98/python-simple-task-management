@@ -145,3 +145,4 @@ def main():
             display_tasks(tasks)
         elif choice == '6':
             save_tasks(tasks)
+        elif choice == '7':

@@ -111,3 +111,4 @@ def get_max_task_id(tasks):
     for task in tasks:
         max_id = max(max_id, task['id'])
         max_id = max(max_id, get_max_task_id(task['children']))
+    return max_id

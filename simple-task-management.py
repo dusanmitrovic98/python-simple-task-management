@@ -101,3 +101,4 @@ def load_tasks():
         print("Tasks loaded successfully.")
         return tasks
     except FileNotFoundError:
+        print("File not found.")

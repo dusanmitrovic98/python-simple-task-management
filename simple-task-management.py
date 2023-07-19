@@ -105,3 +105,4 @@ def load_tasks():
     except:
         print("Error loading tasks from file.")
     return []
+

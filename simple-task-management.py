@@ -148,3 +148,4 @@ def main():
         elif choice == '7':
             tasks = load_tasks()
         elif choice == '8':
+            print("Exiting...")
